@@ -1,4 +1,5 @@
-import { Button, FadeInWhenVisible, ProductCard, SectionHeader } from "@/components/ui";
+import { getTranslations } from "next-intl/server";
+import { Button, ProductCard, SectionHeader } from "@/components/ui";
 import { PRODUCTS } from "@/lib/constants";
 
 const productImages: Record<string, string> = {
@@ -7,35 +8,33 @@ const productImages: Record<string, string> = {
   "pp-woven-bags": "/images/pp-woven-bags-rice.jpeg",
 };
 
-export default function ProductsOverview() {
+export default async function ProductsOverview() {
+  const t = await getTranslations("home.productsOverview");
+
   return (
     <section className="bg-white px-6 py-16">
       <div className="mx-auto max-w-[1100px]">
-        <SectionHeader
-          eyebrow="WHAT WE MAKE"
-          lead="From orchard to warehouse — protective covers for fruits, mesh bags for vegetables, and heavy-duty woven sacks for grains and fertilizer."
-          title="Three products, built for every need."
-        />
+        <SectionHeader eyebrow={t("eyebrow")} lead={t("lead")} title={t("title")} />
         <div className="mt-7 grid grid-cols-1 gap-4 md:grid-cols-3">
-          {PRODUCTS.map((product, index) => (
-            <FadeInWhenVisible delay={index * 0.08} key={product.id}>
-              <ProductCard
-                features={product.features.slice(0, 3)}
-                id={product.id}
-                imagePath={productImages[product.id] ?? ""}
-                moq={product.moq}
-                name={product.name}
-                shortDesc={product.shortDesc}
-                sizes={product.sizes.join(", ")}
-                slug={product.slug}
-                teluguName={product.teluguName}
-              />
-            </FadeInWhenVisible>
+          {PRODUCTS.map((product) => (
+            <ProductCard
+              features={product.features.slice(0, 3)}
+              id={product.id}
+              imagePath={productImages[product.id] ?? ""}
+              key={product.id}
+              moq={product.moq}
+              name={product.name}
+              hindiName={product.hindiName}
+              shortDesc={product.shortDesc}
+              sizes={product.sizes.join(", ")}
+              slug={product.slug}
+              teluguName={product.teluguName}
+            />
           ))}
         </div>
         <div className="mt-8 text-center">
           <Button href="#specs" variant="ghost">
-            See detailed specs for all products →
+            {t("detailsLink")}
           </Button>
         </div>
       </div>

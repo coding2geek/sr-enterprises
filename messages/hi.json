@@ -1,95 +1,86 @@
 {
   "nav": {
-    "home": "Home",
-    "products": "Products",
-    "about": "About",
-    "factory": "Factory",
-    "gallery": "Gallery",
-    "testimonials": "Testimonials",
-    "contact": "Contact",
-    "getQuote": "Get a quote"
+    "home": "होम",
+    "products": "उत्पाद",
+    "about": "हमारे बारे में",
+    "factory": "फैक्टरी",
+    "gallery": "गैलरी",
+    "testimonials": "ग्राहक कहानियां",
+    "contact": "संपर्क करें",
+    "getQuote": "रेट पूछें"
   },
   "common": {
-    "whatsappUs": "WhatsApp us",
-    "callNow": "Call now",
-    "viewDetails": "View details",
-    "freeSample": "Free sample available"
+    "whatsappUs": "WhatsApp करें",
+    "callNow": "अभी कॉल करें",
+    "getQuoteArrow": "रेट पूछें →",
+    "viewDetails": "विवरण देखें",
+    "freeSample": "फ्री सैंपल उपलब्ध"
   },
   "home": {
     "hero": {
-      "eyebrow": "MANUFACTURER · SINCE 2026",
-      "title": "Quality packaging for every harvest.",
-      "subtitle": "Fruit covers, leno mesh bags, and PP woven bags — made right here in Andhra Pradesh. Trusted by farmers and businesses across India.",
+      "eyebrow": "निर्माता · 2026 से",
+      "titleBefore": "हर फसल के लिए भरोसेमंद",
+      "titleHighlight": "पैकेजिंग",
+      "titleAfter": ".",
+      "subtitle": "फ्रूट कवर, लेनो मेश बैग और पीपी वोवन बैग — आंध्र प्रदेश में निर्मित। भारत भर के किसान और व्यवसाय हम पर भरोसा करते हैं.",
       "stats": {
-        "productLines": "Product lines",
-        "delivery": "Delivery",
-        "printSizing": "Print & Sizing"
+        "productLines": "उत्पाद लाइनें",
+        "allIndia": "ऑल इंडिया",
+        "delivery": "डिलीवरी",
+        "custom": "कस्टम",
+        "printSizing": "प्रिंट और साइज"
       },
-      "liveFactory": "Live from factory",
-      "sampleTitle": "Free sample available",
-      "sampleSubtitle": "WhatsApp to request"
+      "liveFactory": "● फैक्टरी से",
+      "sampleTitle": "फ्री सैंपल उपलब्ध",
+      "sampleSubtitle": "WhatsApp पर पूछें"
     },
     "trustBar": {
-      "modernFactory": "Modern factory",
-      "latestMachinery": "Latest machinery",
-      "allIndiaDelivery": "All India delivery",
-      "shipAnywhere": "We ship anywhere",
-      "customPrinting": "Custom printing",
-      "brandAnyColor": "Your brand, any color",
-      "replyInOneHour": "Reply in 1 hour",
-      "whatsappSupport": "WhatsApp support"
+      "modernFactory": "आधुनिक फैक्टरी",
+      "latestMachinery": "नई मशीनरी",
+      "allIndiaDelivery": "ऑल इंडिया डिलीवरी",
+      "shipAnywhere": "कहीं भी भेजते हैं",
+      "customPrinting": "कस्टम प्रिंटिंग",
+      "brandAnyColor": "आपका ब्रांड, कोई भी रंग",
+      "replyInOneHour": "1 घंटे में जवाब",
+      "whatsappSupport": "WhatsApp सपोर्ट"
     },
     "productsOverview": {
-      "eyebrow": "WHAT WE MAKE",
-      "title": "Three products, built for every need.",
-      "lead": "From orchard to warehouse — protective covers for fruits, mesh bags for vegetables, and heavy-duty woven sacks for grains and fertilizer.",
-      "detailsLink": "See detailed specs for all products →"
+      "eyebrow": "हम क्या बनाते हैं",
+      "title": "हर जरूरत के लिए तीन उत्पाद.",
+      "lead": "बाग से गोदाम तक — फलों के लिए सुरक्षा कवर, सब्जियों के लिए मेश बैग, और अनाज व खाद के लिए मजबूत वोवन बैग.",
+      "detailsLink": "सभी उत्पादों के स्पेक्स देखें →"
     },
     "beforeAfter": {
-      "eyebrow": "THE DIFFERENCE IS VISIBLE",
-      "title": "See what fruit covers do.",
-      "lead": "Mangoes grown without protection develop spots, insect marks, and sun damage — selling for half the price of clean fruit. Covers pay for themselves in the first harvest.",
-      "button": "Watch farmer stories →",
-      "leftLabel": "❌ Without cover",
-      "rightLabel": "✅ With cover"
-    },
-    "specs": {
-      "eyebrow": "COMPARE PRODUCTS",
-      "title": "Which one fits your need?",
-      "lead": "Every product's key specs in one view.",
-      "bestFor": "Best for",
-      "sizesAvailable": "Sizes available",
-      "moq": "MOQ",
-      "customPrint": "Custom print",
-      "deliveryTime": "Delivery time",
-      "freeSample": "Free sample",
-      "enquire": "Enquire"
-    },
-    "factoryVideos": {
-      "eyebrow": "INSIDE OUR FACTORY",
-      "title": "Built right, here in Andhra Pradesh.",
-      "lead": "Take a look at our machines, processes, and the team behind every bag.",
-      "galleryLink": "View full gallery →"
-    },
-    "testimonials": {
-      "eyebrow": "FARMERS & BUSINESSES WHO TRUST US",
-      "title": "Real results, in their own words.",
-      "link": "Read all 20+ stories →"
+      "eyebrow": "फर्क साफ दिखता है",
+      "title": "देखें फ्रूट कवर क्या करते हैं.",
+      "lead": "बिना सुरक्षा के उगे आमों पर दाग, कीट के निशान और धूप से नुकसान आ सकता है — साफ फल के मुकाबले कम दाम मिलते हैं। कवर की लागत पहली फसल में ही निकल आती है.",
+      "button": "किसानों की कहानियां देखें →",
+      "leftLabel": "बिना कवर",
+      "rightLabel": "कवर के साथ"
     },
     "deliveryTrust": {
-      "eyebrow": "TRUSTED ACROSS INDIA",
-      "title": "We deliver to 15+ states.",
-      "badges": "GST Registered, MSME Certified, ISI Standards, IndiaMART Verified"
+      "eyebrow": "भारत भर में भरोसा",
+      "title": "हम 15+ राज्यों में डिलीवरी करते हैं.",
+      "farmersServed": "किसानों को सेवा",
+      "statesDelivered": "राज्यों में डिलीवरी",
+      "productLines": "उत्पाद लाइनें",
+      "quoteReply": "रेट जवाब",
+      "badges": {
+        "gst": "GST पंजीकृत",
+        "msme": "MSME प्रमाणित",
+        "isi": "ISI मानक",
+        "indiamart": "IndiaMART सत्यापित"
+      }
     },
     "mainCta": {
-      "title": "Need a bulk quote? Talk to us directly.",
-      "description": "WhatsApp us your requirement — quantity, product, and delivery location. We reply within 1 hour with pricing and delivery estimate.",
-      "primary": "WhatsApp us now",
-      "secondary": "Call: 99856 36699",
-      "formTitle": "OR FILL THIS QUICK FORM",
-      "freeSample": "Free sample available",
-      "quoteTurnaround": "24hr quote turnaround",
-      "delivery": "All India delivery"
+      "title": "बल्क रेट चाहिए? सीधे हमसे बात करें.",
+      "description": "अपनी जरूरत — मात्रा, उत्पाद और डिलीवरी लोकेशन WhatsApp करें। हम 1 घंटे में कीमत और डिलीवरी अनुमान भेजेंगे.",
+      "primary": "अभी WhatsApp करें",
+      "secondary": "कॉल: 99856 36699",
+      "formTitle": "या यह छोटा फॉर्म भरें",
+      "freeSample": "फ्री सैंपल उपलब्ध",
+      "quoteTurnaround": "24 घंटे में रेट",
+      "delivery": "ऑल इंडिया डिलीवरी"
     }
   },
   "about": {},

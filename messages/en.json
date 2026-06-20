@@ -12,20 +12,25 @@
   "common": {
     "whatsappUs": "WhatsApp us",
     "callNow": "Call now",
+    "getQuoteArrow": "Get a quote →",
     "viewDetails": "View details",
     "freeSample": "Free sample available"
   },
   "home": {
     "hero": {
       "eyebrow": "MANUFACTURER · SINCE 2026",
-      "title": "Quality packaging for every harvest.",
+      "titleBefore": "Quality packaging for every",
+      "titleHighlight": "harvest",
+      "titleAfter": ".",
       "subtitle": "Fruit covers, leno mesh bags, and PP woven bags — made right here in Andhra Pradesh. Trusted by farmers and businesses across India.",
       "stats": {
         "productLines": "Product lines",
+        "allIndia": "All India",
         "delivery": "Delivery",
+        "custom": "Custom",
         "printSizing": "Print & Sizing"
       },
-      "liveFactory": "Live from factory",
+      "liveFactory": "● Live from factory",
       "sampleTitle": "Free sample available",
       "sampleSubtitle": "WhatsApp to request"
     },
@@ -50,36 +55,22 @@
       "title": "See what fruit covers do.",
       "lead": "Mangoes grown without protection develop spots, insect marks, and sun damage — selling for half the price of clean fruit. Covers pay for themselves in the first harvest.",
       "button": "Watch farmer stories →",
-      "leftLabel": "❌ Without cover",
-      "rightLabel": "✅ With cover"
-    },
-    "specs": {
-      "eyebrow": "COMPARE PRODUCTS",
-      "title": "Which one fits your need?",
-      "lead": "Every product's key specs in one view.",
-      "bestFor": "Best for",
-      "sizesAvailable": "Sizes available",
-      "moq": "MOQ",
-      "customPrint": "Custom print",
-      "deliveryTime": "Delivery time",
-      "freeSample": "Free sample",
-      "enquire": "Enquire"
-    },
-    "factoryVideos": {
-      "eyebrow": "INSIDE OUR FACTORY",
-      "title": "Built right, here in Andhra Pradesh.",
-      "lead": "Take a look at our machines, processes, and the team behind every bag.",
-      "galleryLink": "View full gallery →"
-    },
-    "testimonials": {
-      "eyebrow": "FARMERS & BUSINESSES WHO TRUST US",
-      "title": "Real results, in their own words.",
-      "link": "Read all 20+ stories →"
+      "leftLabel": "Without cover",
+      "rightLabel": "With cover"
     },
     "deliveryTrust": {
       "eyebrow": "TRUSTED ACROSS INDIA",
       "title": "We deliver to 15+ states.",
-      "badges": "GST Registered, MSME Certified, ISI Standards, IndiaMART Verified"
+      "farmersServed": "Farmers served",
+      "statesDelivered": "States delivered",
+      "productLines": "Product lines",
+      "quoteReply": "Quote reply",
+      "badges": {
+        "gst": "GST Registered",
+        "msme": "MSME Certified",
+        "isi": "ISI Standards",
+        "indiamart": "IndiaMART Verified"
+      }
     },
     "mainCta": {
       "title": "Need a bulk quote? Talk to us directly.",

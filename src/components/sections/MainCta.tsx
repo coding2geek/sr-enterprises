@@ -1,35 +1,38 @@
+import { getTranslations } from "next-intl/server";
 import { CtaBox, EnquiryForm } from "@/components/ui";
 import { buildWhatsAppUrl, PHONE_1 } from "@/lib/constants";
 
-export default function MainCta() {
+export default async function MainCta() {
+  const t = await getTranslations("home.mainCta");
+
   return (
     <section className="bg-white px-6 py-16" id="enquiry">
       <div className="mx-auto max-w-[1100px]">
         <CtaBox
-          description="WhatsApp us your requirement — quantity, product, and delivery location. We reply within 1 hour with pricing and delivery estimate."
+          description={t("description")}
           formSlot={
             <div className="rounded-xl bg-white p-5">
               <div className="mb-4 text-[11px] font-medium uppercase tracking-[0.08em] text-text-muted">
-                OR FILL THIS QUICK FORM
+                {t("formTitle")}
               </div>
               <EnquiryForm variant="compact" />
             </div>
           }
           primaryButton={{
-            label: "WhatsApp us now",
+            label: t("primary"),
             href: buildWhatsAppUrl("Hi, I need a bulk quote"),
           }}
           secondaryButton={{
-            label: "Call: 99856 36699",
+            label: t("secondary"),
             href: `tel:${PHONE_1.replace(/\s/g, "")}`,
           }}
-          title="Need a bulk quote? Talk to us directly."
+          title={t("title")}
           variant="sage"
         >
           <ul className="space-y-1 text-xs text-leaf">
-            <li>✓ Free sample available</li>
-            <li>✓ 24hr quote turnaround</li>
-            <li>✓ All India delivery</li>
+            <li>✓ {t("freeSample")}</li>
+            <li>✓ {t("quoteTurnaround")}</li>
+            <li>✓ {t("delivery")}</li>
           </ul>
         </CtaBox>
       </div>

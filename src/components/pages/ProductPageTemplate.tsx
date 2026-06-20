@@ -102,6 +102,10 @@ export default function ProductPageTemplate({ product }: ProductPageTemplateProp
   const [openFaqIndex, setOpenFaqIndex] = useState<number | null>(0);
   const [showStickyCta, setShowStickyCta] = useState(false);
   const activeImage = product.images[activeImageIndex] ?? product.images[0] ?? "";
+  const productDisplayName =
+    locale === "te" ? product.teluguName : locale === "hi" ? product.hindiName : product.name;
+  const productSubtitle = locale === "en" ? product.teluguName : product.name;
+  const productSubtitleClass = locale === "hi" ? "font-devanagari" : "font-telugu";
   const tableHeaders = useMemo(() => Object.keys(product.sizesTable[0] ?? {}), [product.sizesTable]);
   const matchingTestimonials = TESTIMONIALS.filter((testimonial) =>
     product.testimonialIds.includes(testimonial.name),
@@ -125,7 +129,7 @@ export default function ProductPageTemplate({ product }: ProductPageTemplateProp
         items={[
           { label: "Home", href: `/${locale}` },
           { label: "Products", href: `/${locale}` },
-          { label: product.name },
+          { label: productDisplayName },
         ]}
       />
 
@@ -134,13 +138,13 @@ export default function ProductPageTemplate({ product }: ProductPageTemplateProp
           <div className="relative h-[400px] overflow-hidden rounded-2xl bg-leaf lg:h-[500px]">
             {activeImage ? (
               <ProductImage
-                alt={product.name}
+                alt={productDisplayName}
                 imageKey={`${product.id}-${activeImageIndex}`}
                 src={activeImage}
               />
             ) : (
               <div className="flex h-full items-center justify-center bg-gradient-to-br from-leaf to-forest font-display text-white">
-                {product.name}
+                {productDisplayName}
               </div>
             )}
           </div>
@@ -158,7 +162,7 @@ export default function ProductPageTemplate({ product }: ProductPageTemplateProp
                 type="button"
               >
                 <ProductImage
-                  alt={`${product.name} thumbnail ${index + 1}`}
+                  alt={`${productDisplayName} thumbnail ${index + 1}`}
                   imageKey={`${product.id}-thumb-${index}`}
                   src={image}
                 />
@@ -177,9 +181,9 @@ export default function ProductPageTemplate({ product }: ProductPageTemplateProp
             {product.category}
           </div>
           <h1 className="mt-2 font-display text-[32px] font-semibold leading-tight text-forest">
-            {product.name}
+            {productDisplayName}
           </h1>
-          <div className="mt-1 font-telugu text-base text-leaf">{product.teluguName}</div>
+          <div className={`mt-1 text-base text-leaf ${productSubtitleClass}`}>{productSubtitle}</div>
 
           <div className="mt-5 flex flex-wrap gap-2">
             {product.features.map((feature) => (

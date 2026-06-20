@@ -12,6 +12,7 @@ type ProductCardProps = {
   id: string;
   name: string;
   teluguName: string;
+  hindiName?: string;
   shortDesc: string;
   sizes: string;
   moq: string;
@@ -25,6 +26,7 @@ export default function ProductCard({
   id,
   name,
   teluguName,
+  hindiName,
   shortDesc,
   sizes,
   moq,
@@ -34,6 +36,9 @@ export default function ProductCard({
   hasVideo = false,
 }: ProductCardProps) {
   const locale = useLocale();
+  const displayName = locale === "te" ? teluguName : locale === "hi" && hindiName ? hindiName : name;
+  const subtitle = locale === "en" ? teluguName : name;
+  const subtitleClass = locale === "hi" ? "font-devanagari" : "font-telugu";
 
   return (
     <article
@@ -43,7 +48,7 @@ export default function ProductCard({
       <div className="relative aspect-[4/3] rounded-t-2xl bg-leaf">
         {imagePath ? (
           <Image
-            alt={name}
+            alt={displayName}
             className="object-cover"
             fill
             sizes="(min-width: 1024px) 33vw, 100vw"
@@ -60,8 +65,8 @@ export default function ProductCard({
       </div>
 
       <div className="p-4">
-        <h3 className="font-display text-base font-semibold leading-tight text-forest">{name}</h3>
-        <div className="mt-px font-telugu text-xs text-leaf">{teluguName}</div>
+        <h3 className="font-display text-base font-semibold leading-tight text-forest">{displayName}</h3>
+        <div className={`mt-px text-xs text-leaf ${subtitleClass}`}>{subtitle}</div>
         <p className="mt-3 min-h-10 text-[13px] leading-normal text-text-muted">{shortDesc}</p>
         <p className="mt-2 text-[11px] text-text-muted">
           Sizes: {sizes} · MOQ: {moq}

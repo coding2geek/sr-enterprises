@@ -7,8 +7,8 @@ import Link from "next/link";
 import { useLocale, useTranslations } from "next-intl";
 import { usePathname } from "next/navigation";
 import { useEffect } from "react";
-import { getLocalizedPath, LOCALES } from "@/lib/routes";
 import { trackEvent } from "@/lib/analytics";
+import { getLocalizedPath, LOCALES } from "@/lib/routes";
 import { cn } from "@/lib/utils";
 
 type MobileMenuProps = {

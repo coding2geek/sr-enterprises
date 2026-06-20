@@ -1,95 +1,86 @@
 {
   "nav": {
-    "home": "Home",
-    "products": "Products",
-    "about": "About",
-    "factory": "Factory",
-    "gallery": "Gallery",
-    "testimonials": "Testimonials",
-    "contact": "Contact",
-    "getQuote": "Get a quote"
+    "home": "హోమ్",
+    "products": "ఉత్పత్తులు",
+    "about": "మా గురించి",
+    "factory": "ఫ్యాక్టరీ",
+    "gallery": "గ్యాలరీ",
+    "testimonials": "కస్టమర్ కథలు",
+    "contact": "సంప్రదించండి",
+    "getQuote": "ధర అడగండి"
   },
   "common": {
-    "whatsappUs": "WhatsApp us",
-    "callNow": "Call now",
-    "viewDetails": "View details",
-    "freeSample": "Free sample available"
+    "whatsappUs": "వాట్సాప్ చేయండి",
+    "callNow": "ఇప్పుడే కాల్ చేయండి",
+    "getQuoteArrow": "ధర అడగండి →",
+    "viewDetails": "వివరాలు చూడండి",
+    "freeSample": "ఉచిత నమూనా అందుబాటులో ఉంది"
   },
   "home": {
     "hero": {
-      "eyebrow": "MANUFACTURER · SINCE 2026",
-      "title": "Quality packaging for every harvest.",
-      "subtitle": "Fruit covers, leno mesh bags, and PP woven bags — made right here in Andhra Pradesh. Trusted by farmers and businesses across India.",
+      "eyebrow": "తయారీదారు · 2026 నుండి",
+      "titleBefore": "ప్రతి పంటకు నాణ్యమైన",
+      "titleHighlight": "ప్యాకేజింగ్",
+      "titleAfter": ".",
+      "subtitle": "ఫ్రూట్ కవర్లు, లెనో మెష్ బ్యాగులు, పిపి వోవెన్ బ్యాగులు — ఆంధ్రప్రదేశ్‌లోనే తయారీ. భారత్ అంతటా రైతులు మరియు వ్యాపారులు విశ్వసిస్తున్నారు.",
       "stats": {
-        "productLines": "Product lines",
-        "delivery": "Delivery",
-        "printSizing": "Print & Sizing"
+        "productLines": "ఉత్పత్తుల రకాలు",
+        "allIndia": "భారత్ అంతటా",
+        "delivery": "డెలివరీ",
+        "custom": "కస్టమ్",
+        "printSizing": "ప్రింట్ & సైజింగ్"
       },
-      "liveFactory": "Live from factory",
-      "sampleTitle": "Free sample available",
-      "sampleSubtitle": "WhatsApp to request"
+      "liveFactory": "● ఫ్యాక్టరీ నుండి",
+      "sampleTitle": "ఉచిత నమూనా అందుబాటులో ఉంది",
+      "sampleSubtitle": "వాట్సాప్‌లో అడగండి"
     },
     "trustBar": {
-      "modernFactory": "Modern factory",
-      "latestMachinery": "Latest machinery",
-      "allIndiaDelivery": "All India delivery",
-      "shipAnywhere": "We ship anywhere",
-      "customPrinting": "Custom printing",
-      "brandAnyColor": "Your brand, any color",
-      "replyInOneHour": "Reply in 1 hour",
-      "whatsappSupport": "WhatsApp support"
+      "modernFactory": "ఆధునిక ఫ్యాక్టరీ",
+      "latestMachinery": "తాజా యంత్రాలు",
+      "allIndiaDelivery": "భారత్ అంతటా డెలివరీ",
+      "shipAnywhere": "ఎక్కడికైనా పంపిస్తాం",
+      "customPrinting": "కస్టమ్ ప్రింటింగ్",
+      "brandAnyColor": "మీ బ్రాండ్, ఏ రంగైనా",
+      "replyInOneHour": "1 గంటలో స్పందన",
+      "whatsappSupport": "వాట్సాప్ సపోర్ట్"
     },
     "productsOverview": {
-      "eyebrow": "WHAT WE MAKE",
-      "title": "Three products, built for every need.",
-      "lead": "From orchard to warehouse — protective covers for fruits, mesh bags for vegetables, and heavy-duty woven sacks for grains and fertilizer.",
-      "detailsLink": "See detailed specs for all products →"
+      "eyebrow": "మేము తయారు చేసేవి",
+      "title": "ప్రతి అవసరానికి మూడు ఉత్పత్తులు.",
+      "lead": "తోట నుండి గోదాం వరకు — పండ్లకు రక్షణ కవర్లు, కూరగాయలకు మెష్ బ్యాగులు, ధాన్యం మరియు ఎరువులకు బలమైన వోవెన్ సంచులు.",
+      "detailsLink": "అన్ని ఉత్పత్తుల వివరాలు చూడండి →"
     },
     "beforeAfter": {
-      "eyebrow": "THE DIFFERENCE IS VISIBLE",
-      "title": "See what fruit covers do.",
-      "lead": "Mangoes grown without protection develop spots, insect marks, and sun damage — selling for half the price of clean fruit. Covers pay for themselves in the first harvest.",
-      "button": "Watch farmer stories →",
-      "leftLabel": "❌ Without cover",
-      "rightLabel": "✅ With cover"
-    },
-    "specs": {
-      "eyebrow": "COMPARE PRODUCTS",
-      "title": "Which one fits your need?",
-      "lead": "Every product's key specs in one view.",
-      "bestFor": "Best for",
-      "sizesAvailable": "Sizes available",
-      "moq": "MOQ",
-      "customPrint": "Custom print",
-      "deliveryTime": "Delivery time",
-      "freeSample": "Free sample",
-      "enquire": "Enquire"
-    },
-    "factoryVideos": {
-      "eyebrow": "INSIDE OUR FACTORY",
-      "title": "Built right, here in Andhra Pradesh.",
-      "lead": "Take a look at our machines, processes, and the team behind every bag.",
-      "galleryLink": "View full gallery →"
-    },
-    "testimonials": {
-      "eyebrow": "FARMERS & BUSINESSES WHO TRUST US",
-      "title": "Real results, in their own words.",
-      "link": "Read all 20+ stories →"
+      "eyebrow": "తేడా స్పష్టంగా కనిపిస్తుంది",
+      "title": "ఫ్రూట్ కవర్లు చేసే మార్పు చూడండి.",
+      "lead": "రక్షణ లేకుండా పెరిగిన మామిడి పండ్లకు మచ్చలు, పురుగు గుర్తులు, ఎండ దెబ్బ వస్తాయి — శుభ్రమైన పండ్ల కంటే తక్కువ ధరకు అమ్ముకోవాల్సి వస్తుంది. కవర్ల ఖర్చు మొదటి పంటలోనే తిరిగి వస్తుంది.",
+      "button": "రైతుల కథలు చూడండి →",
+      "leftLabel": "కవర్ లేకుండా",
+      "rightLabel": "కవర్‌తో"
     },
     "deliveryTrust": {
-      "eyebrow": "TRUSTED ACROSS INDIA",
-      "title": "We deliver to 15+ states.",
-      "badges": "GST Registered, MSME Certified, ISI Standards, IndiaMART Verified"
+      "eyebrow": "భారత్ అంతటా నమ్మకం",
+      "title": "మేము 15+ రాష్ట్రాలకు డెలివరీ చేస్తాము.",
+      "farmersServed": "సేవ పొందిన రైతులు",
+      "statesDelivered": "డెలివరీ చేసిన రాష్ట్రాలు",
+      "productLines": "ఉత్పత్తుల రకాలు",
+      "quoteReply": "ధర స్పందన",
+      "badges": {
+        "gst": "GST నమోదు",
+        "msme": "MSME సర్టిఫైడ్",
+        "isi": "ISI ప్రమాణాలు",
+        "indiamart": "IndiaMART ధృవీకరణ"
+      }
     },
     "mainCta": {
-      "title": "Need a bulk quote? Talk to us directly.",
-      "description": "WhatsApp us your requirement — quantity, product, and delivery location. We reply within 1 hour with pricing and delivery estimate.",
-      "primary": "WhatsApp us now",
-      "secondary": "Call: 99856 36699",
-      "formTitle": "OR FILL THIS QUICK FORM",
-      "freeSample": "Free sample available",
-      "quoteTurnaround": "24hr quote turnaround",
-      "delivery": "All India delivery"
+      "title": "బల్క్ ఆర్డర్ ధర కావాలా? మాతో నేరుగా మాట్లాడండి.",
+      "description": "మీ అవసరం — పరిమాణం, ఉత్పత్తి, డెలివరీ ప్రదేశం వాట్సాప్‌లో పంపండి. 1 గంటలో ధర మరియు డెలివరీ అంచనాతో స్పందిస్తాం.",
+      "primary": "ఇప్పుడే వాట్సాప్ చేయండి",
+      "secondary": "కాల్: 99856 36699",
+      "formTitle": "లేదా ఈ చిన్న ఫారం నింపండి",
+      "freeSample": "ఉచిత నమూనా అందుబాటులో ఉంది",
+      "quoteTurnaround": "24 గంటల్లో ధర అంచనా",
+      "delivery": "భారత్ అంతటా డెలివరీ"
     }
   },
   "about": {},
