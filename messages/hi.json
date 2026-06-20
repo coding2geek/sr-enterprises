@@ -1,124 +1,101 @@
 {
   "nav": {
-    "home": "होम",
-    "products": "उत्पाद",
-    "about": "हमारे बारे में",
-    "gallery": "गैलरी",
-    "contact": "संपर्क",
-    "getQuote": "कोटेशन लें"
+    "home": "Home",
+    "products": "Products",
+    "about": "About",
+    "factory": "Factory",
+    "gallery": "Gallery",
+    "testimonials": "Testimonials",
+    "contact": "Contact",
+    "getQuote": "Get a quote"
   },
-  "hero": {
-    "subtitle": "निर्माता और आपूर्तिकर्ता",
-    "title": "फल कवर और पैकेजिंग बैग",
-    "description": "2026 से किसानों और व्यवसायों के लिए गुणवत्तापूर्ण उत्पाद",
-    "whatsapp": "व्हाट्सएप करें",
-    "call": "कॉल करें",
-    "fruitCovers": "फल कवर",
-    "lenoBags": "लेनो बैग",
-    "ppBags": "पीपी बैग"
+  "common": {
+    "whatsappUs": "WhatsApp us",
+    "callNow": "Call now",
+    "viewDetails": "View details",
+    "freeSample": "Free sample available"
   },
-  "trust": {
-    "products": "3+ उत्पाद",
-    "delivery": "पूरे भारत में डिलीवरी",
-    "print": "कस्टम प्रिंट उपलब्ध",
-    "machinery": "आधुनिक मशीनरी"
-  },
-  "why": {
-    "title": "फल सुरक्षा कवर क्यों उपयोग करें?",
-    "subtitle": "देखें ये कैसे फर्क लाते हैं",
-    "noInsects": "कीट मुक्त",
-    "noInsectsDesc": "बिना रसायन के फलों को कीटों से बचाता है",
-    "sunShield": "धूप और बारिश से सुरक्षा",
-    "sunShieldDesc": "धूप की जलन और बारिश के नुकसान से बचाता है",
-    "betterPrice": "बेहतर कीमत",
-    "betterPriceDesc": "बेदाग फल प्रीमियम दरों पर बिकते हैं",
-    "without": "कवर के बिना",
-    "withoutDesc": "धब्बे, कीट के निशान, कम कीमत",
-    "with": "कवर के साथ",
-    "withDesc": "साफ, प्रीमियम गुणवत्ता, अच्छी कीमत",
-    "dragHint": "तुलना के लिए खींचें"
-  },
-  "products": {
-    "title": "हमारे उत्पाद",
-    "enquire": "पूछताछ करें",
-    "cropTitle": "इन फसलों के लिए उपयुक्त",
-    "fruitCovers": {
-      "name": "फल सुरक्षा कवर",
-      "description": "आम, अंगूर, अनार, ड्रैगन फ्रूट, संतरा और अन्य के लिए नॉन-वोवन कवर",
-      "specs": "पुन: प्रयोज्य · सांस लेने योग्य · कीट मुक्त",
-      "tag1": "पुन: प्रयोज्य",
-      "tag2": "सांस लेने योग्य",
-      "tag3": "कीट मुक्त"
+  "home": {
+    "hero": {
+      "eyebrow": "MANUFACTURER · SINCE 2026",
+      "title": "Quality packaging for every harvest.",
+      "subtitle": "Fruit covers, leno mesh bags, and PP woven bags — made right here in Andhra Pradesh. Trusted by farmers and businesses across India.",
+      "stats": {
+        "productLines": "Product lines",
+        "delivery": "Delivery",
+        "printSizing": "Print & Sizing"
+      },
+      "liveFactory": "Live from factory",
+      "sampleTitle": "Free sample available",
+      "sampleSubtitle": "WhatsApp to request"
     },
-    "lenoBags": {
-      "name": "लेनो मेश बैग",
-      "description": "प्याज, आलू, सब्जियों के लिए सांस लेने योग्य मेश बैग — सभी रंगों और आकारों में उपलब्ध",
-      "specs": "सभी रंग · कस्टम आकार · हवादार",
-      "tag1": "सभी रंग",
-      "tag2": "कस्टम आकार",
-      "tag3": "हवादार"
+    "trustBar": {
+      "modernFactory": "Modern factory",
+      "latestMachinery": "Latest machinery",
+      "allIndiaDelivery": "All India delivery",
+      "shipAnywhere": "We ship anywhere",
+      "customPrinting": "Custom printing",
+      "brandAnyColor": "Your brand, any color",
+      "replyInOneHour": "Reply in 1 hour",
+      "whatsappSupport": "WhatsApp support"
     },
-    "ppBags": {
-      "name": "पीपी वोवन बैग",
-      "description": "चावल, उर्वरक, अनाज, सीमेंट के लिए भारी शुल्क वोवन बैग — कस्टम प्रिंटिंग के साथ",
-      "specs": "कस्टम प्रिंट · भारी शुल्क · थोक ऑर्डर",
-      "tag1": "कस्टम प्रिंट",
-      "tag2": "भारी शुल्क",
-      "tag3": "थोक ऑर्डर"
+    "productsOverview": {
+      "eyebrow": "WHAT WE MAKE",
+      "title": "Three products, built for every need.",
+      "lead": "From orchard to warehouse — protective covers for fruits, mesh bags for vegetables, and heavy-duty woven sacks for grains and fertilizer.",
+      "detailsLink": "See detailed specs for all products →"
+    },
+    "beforeAfter": {
+      "eyebrow": "THE DIFFERENCE IS VISIBLE",
+      "title": "See what fruit covers do.",
+      "lead": "Mangoes grown without protection develop spots, insect marks, and sun damage — selling for half the price of clean fruit. Covers pay for themselves in the first harvest.",
+      "button": "Watch farmer stories →",
+      "leftLabel": "❌ Without cover",
+      "rightLabel": "✅ With cover"
+    },
+    "specs": {
+      "eyebrow": "COMPARE PRODUCTS",
+      "title": "Which one fits your need?",
+      "lead": "Every product's key specs in one view.",
+      "bestFor": "Best for",
+      "sizesAvailable": "Sizes available",
+      "moq": "MOQ",
+      "customPrint": "Custom print",
+      "deliveryTime": "Delivery time",
+      "freeSample": "Free sample",
+      "enquire": "Enquire"
+    },
+    "factoryVideos": {
+      "eyebrow": "INSIDE OUR FACTORY",
+      "title": "Built right, here in Andhra Pradesh.",
+      "lead": "Take a look at our machines, processes, and the team behind every bag.",
+      "galleryLink": "View full gallery →"
+    },
+    "testimonials": {
+      "eyebrow": "FARMERS & BUSINESSES WHO TRUST US",
+      "title": "Real results, in their own words.",
+      "link": "Read all 20+ stories →"
+    },
+    "deliveryTrust": {
+      "eyebrow": "TRUSTED ACROSS INDIA",
+      "title": "We deliver to 15+ states.",
+      "badges": "GST Registered, MSME Certified, ISI Standards, IndiaMART Verified"
+    },
+    "mainCta": {
+      "title": "Need a bulk quote? Talk to us directly.",
+      "description": "WhatsApp us your requirement — quantity, product, and delivery location. We reply within 1 hour with pricing and delivery estimate.",
+      "primary": "WhatsApp us now",
+      "secondary": "Call: 99856 36699",
+      "formTitle": "OR FILL THIS QUICK FORM",
+      "freeSample": "Free sample available",
+      "quoteTurnaround": "24hr quote turnaround",
+      "delivery": "All India delivery"
     }
   },
-  "crops": {
-    "mango": "आम",
-    "grapes": "अंगूर",
-    "pomegranate": "अनार",
-    "dragonFruit": "ड्रैगन फ्रूट",
-    "orange": "संतरा",
-    "guava": "अमरूद"
-  },
-  "process": {
-    "eyebrow": "हमारी प्रक्रिया",
-    "title": "हम कैसे बनाते हैं",
-    "step1": "कच्चा माल",
-    "step1Desc": "गुणवत्तापूर्ण पॉलिमर और कपड़ा",
-    "step2": "निर्माण",
-    "step2Desc": "आधुनिक स्वचालित मशीनरी",
-    "step3": "गुणवत्ता जांच",
-    "step3Desc": "हर बैच की जांच",
-    "step4": "डिस्पैच",
-    "step4Desc": "पूरे भारत में भेजा जाता है"
-  },
-  "about": {
-    "title": "हमारी फैक्ट्री के बारे में",
-    "machinery": "आधुनिक मशीनरी",
-    "machineryDesc": "उन्नत विनिर्माण उपकरण",
-    "location": "आंध्र प्रदेश",
-    "locationDesc": "विजयवाड़ा - नूजविड रोड",
-    "delivery": "पूरे भारत में डिलीवरी",
-    "deliveryDesc": "हम पूरे देश में शिप करते हैं",
-    "quality": "गुणवत्ता सुनिश्चित",
-    "qualityDesc": "परीक्षित और विश्वसनीय उत्पाद"
-  },
-  "gallery": {
-    "title": "गैलरी",
-    "subtitle": "उत्पाद • मशीनें • परिणाम"
-  },
-  "contact": {
-    "title": "संपर्क करें",
-    "subtitle": "कॉल या मैसेज करने के लिए टैप करें",
-    "whatsapp": "व्हाट्सएप पर चैट करें",
-    "call": "कॉल",
-    "address": "फैक्ट्री का पता",
-    "addressText": "SR Enterprises, बुर्री वेंकटेश्वरा गार्डन्स, विजयवाड़ा से नुजविड रोड, पोथावरप्पाडु, अगिरिपल्ली मंडल, एलुरु जिला, 521212, आंध्र प्रदेश",
-    "openMaps": "गूगल मैप्स में खोलें",
-    "email": "ईमेल",
-    "copyright": "© 2026 SR एंटरप्राइजेज। सर्वाधिकार सुरक्षित।",
-    "formTitle": "थोक पूछताछ",
-    "formSubtitle": "फॉर्म भरें, हम व्हाट्सएप पर जवाब देंगे",
-    "productLabel": "उत्पाद",
-    "quantityLabel": "मात्रा",
-    "quantityPlaceholder": "उदा. 500",
-    "messageLabel": "संदेश (वैकल्पिक)",
-    "messagePlaceholder": "कोई विशिष्ट आवश्यकता…",
-    "submit": "व्हाट्सएप पर भेजें"
-  }
+  "about": {},
+  "factory": {},
+  "products": {},
+  "testimonials": {},
+  "contact": {},
+  "footer": {}
 }

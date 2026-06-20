@@ -1,124 +1,101 @@
 {
   "nav": {
-    "home": "హోమ్",
-    "products": "ఉత్పత్తులు",
-    "about": "మా గురించి",
-    "gallery": "గ్యాలరీ",
-    "contact": "సంప్రదించండి",
-    "getQuote": "కొటేషన్ పొందండి"
+    "home": "Home",
+    "products": "Products",
+    "about": "About",
+    "factory": "Factory",
+    "gallery": "Gallery",
+    "testimonials": "Testimonials",
+    "contact": "Contact",
+    "getQuote": "Get a quote"
   },
-  "hero": {
-    "subtitle": "తయారీదారు & సరఫరాదారు",
-    "title": "ఫ్రూట్ కవర్లు & ప్యాకేజింగ్ బ్యాగ్‌లు",
-    "description": "2026 నుండి రైతులు & వ్యాపారుల కోసం నాణ్యమైన ఉత్పత్తులు",
-    "whatsapp": "వాట్సాప్ చేయండి",
-    "call": "కాల్ చేయండి",
-    "fruitCovers": "ఫ్రూట్ కవర్లు",
-    "lenoBags": "లెనో బ్యాగ్‌లు",
-    "ppBags": "PP బ్యాగ్‌లు"
+  "common": {
+    "whatsappUs": "WhatsApp us",
+    "callNow": "Call now",
+    "viewDetails": "View details",
+    "freeSample": "Free sample available"
   },
-  "trust": {
-    "products": "3+ ఉత్పత్తులు",
-    "delivery": "భారతదేశం అంతటా డెలివరీ",
-    "print": "కస్టమ్ ప్రింట్ అందుబాటులో",
-    "machinery": "ఆధునిక యంత్రాలు"
-  },
-  "why": {
-    "title": "ఫ్రూట్ ప్రొటెక్షన్ కవర్లు ఎందుకు వాడాలి?",
-    "subtitle": "అవి చేసే తేడా చూడండి",
-    "noInsects": "పురుగులు రావు",
-    "noInsectsDesc": "రసాయనాలు లేకుండా పండ్లను పురుగుల నుండి కాపాడుతుంది",
-    "sunShield": "ఎండ & వర్షం నుండి రక్షణ",
-    "sunShieldDesc": "ఎండ కాలడం మరియు వర్షం నష్టం నుండి కాపాడుతుంది",
-    "betterPrice": "మంచి ధర",
-    "betterPriceDesc": "మచ్చలు లేని పండ్లు ప్రీమియం ధరలకు అమ్ముడవుతాయి",
-    "without": "కవర్ లేకుండా",
-    "withoutDesc": "మచ్చలు, పురుగు గుర్తులు, తక్కువ ధర",
-    "with": "కవర్‌తో",
-    "withDesc": "శుభ్రంగా, ప్రీమియం నాణ్యత, అధిక ధర",
-    "dragHint": "పోల్చడానికి లాగండి"
-  },
-  "products": {
-    "title": "మా ఉత్పత్తులు",
-    "enquire": "ఇప్పుడు అడగండి",
-    "cropTitle": "వీటికి అనువైనవి",
-    "fruitCovers": {
-      "name": "ఫ్రూట్ ప్రొటెక్షన్ కవర్లు",
-      "description": "మామిడి, ద్రాక్ష, దానిమ్మ, డ్రాగన్ ఫ్రూట్, నారింజ & మరిన్నింటి కోసం నాన్-వోవెన్ కవర్లు",
-      "specs": "మళ్ళీ వాడవచ్చు · గాలి ఆడుతుంది · పురుగు రహితం",
-      "tag1": "మళ్ళీ వాడవచ్చు",
-      "tag2": "గాలి ఆడుతుంది",
-      "tag3": "పురుగు రహితం"
+  "home": {
+    "hero": {
+      "eyebrow": "MANUFACTURER · SINCE 2026",
+      "title": "Quality packaging for every harvest.",
+      "subtitle": "Fruit covers, leno mesh bags, and PP woven bags — made right here in Andhra Pradesh. Trusted by farmers and businesses across India.",
+      "stats": {
+        "productLines": "Product lines",
+        "delivery": "Delivery",
+        "printSizing": "Print & Sizing"
+      },
+      "liveFactory": "Live from factory",
+      "sampleTitle": "Free sample available",
+      "sampleSubtitle": "WhatsApp to request"
     },
-    "lenoBags": {
-      "name": "లెనో మెష్ బ్యాగ్‌లు",
-      "description": "ఉల్లిపాయలు, బంగాళాదుంపలు, కూరగాయల కోసం గాలి ఆడే మెష్ బ్యాగ్‌లు — అన్ని రంగులు & సైజుల్లో",
-      "specs": "అన్ని రంగులు · కస్టమ్ సైజులు · గాలి ఆడుతుంది",
-      "tag1": "అన్ని రంగులు",
-      "tag2": "కస్టమ్ సైజులు",
-      "tag3": "గాలి ఆడుతుంది"
+    "trustBar": {
+      "modernFactory": "Modern factory",
+      "latestMachinery": "Latest machinery",
+      "allIndiaDelivery": "All India delivery",
+      "shipAnywhere": "We ship anywhere",
+      "customPrinting": "Custom printing",
+      "brandAnyColor": "Your brand, any color",
+      "replyInOneHour": "Reply in 1 hour",
+      "whatsappSupport": "WhatsApp support"
     },
-    "ppBags": {
-      "name": "PP వోవెన్ బ్యాగ్‌లు",
-      "description": "బియ్యం, ఎరువులు, ధాన్యాలు, సిమెంట్ కోసం హెవీ డ్యూటీ వోవెన్ బ్యాగ్‌లు — కస్టమ్ ప్రింటింగ్‌తో",
-      "specs": "కస్టమ్ ప్రింట్ · హెవీ డ్యూటీ · బల్క్ ఆర్డర్లు",
-      "tag1": "కస్టమ్ ప్రింట్",
-      "tag2": "హెవీ డ్యూటీ",
-      "tag3": "బల్క్ ఆర్డర్లు"
+    "productsOverview": {
+      "eyebrow": "WHAT WE MAKE",
+      "title": "Three products, built for every need.",
+      "lead": "From orchard to warehouse — protective covers for fruits, mesh bags for vegetables, and heavy-duty woven sacks for grains and fertilizer.",
+      "detailsLink": "See detailed specs for all products →"
+    },
+    "beforeAfter": {
+      "eyebrow": "THE DIFFERENCE IS VISIBLE",
+      "title": "See what fruit covers do.",
+      "lead": "Mangoes grown without protection develop spots, insect marks, and sun damage — selling for half the price of clean fruit. Covers pay for themselves in the first harvest.",
+      "button": "Watch farmer stories →",
+      "leftLabel": "❌ Without cover",
+      "rightLabel": "✅ With cover"
+    },
+    "specs": {
+      "eyebrow": "COMPARE PRODUCTS",
+      "title": "Which one fits your need?",
+      "lead": "Every product's key specs in one view.",
+      "bestFor": "Best for",
+      "sizesAvailable": "Sizes available",
+      "moq": "MOQ",
+      "customPrint": "Custom print",
+      "deliveryTime": "Delivery time",
+      "freeSample": "Free sample",
+      "enquire": "Enquire"
+    },
+    "factoryVideos": {
+      "eyebrow": "INSIDE OUR FACTORY",
+      "title": "Built right, here in Andhra Pradesh.",
+      "lead": "Take a look at our machines, processes, and the team behind every bag.",
+      "galleryLink": "View full gallery →"
+    },
+    "testimonials": {
+      "eyebrow": "FARMERS & BUSINESSES WHO TRUST US",
+      "title": "Real results, in their own words.",
+      "link": "Read all 20+ stories →"
+    },
+    "deliveryTrust": {
+      "eyebrow": "TRUSTED ACROSS INDIA",
+      "title": "We deliver to 15+ states.",
+      "badges": "GST Registered, MSME Certified, ISI Standards, IndiaMART Verified"
+    },
+    "mainCta": {
+      "title": "Need a bulk quote? Talk to us directly.",
+      "description": "WhatsApp us your requirement — quantity, product, and delivery location. We reply within 1 hour with pricing and delivery estimate.",
+      "primary": "WhatsApp us now",
+      "secondary": "Call: 99856 36699",
+      "formTitle": "OR FILL THIS QUICK FORM",
+      "freeSample": "Free sample available",
+      "quoteTurnaround": "24hr quote turnaround",
+      "delivery": "All India delivery"
     }
   },
-  "crops": {
-    "mango": "మామిడి",
-    "grapes": "ద్రాక్ష",
-    "pomegranate": "దానిమ్మ",
-    "dragonFruit": "డ్రాగన్ ఫ్రూట్",
-    "orange": "నారింజ",
-    "guava": "జామ"
-  },
-  "process": {
-    "eyebrow": "మా ప్రక్రియ",
-    "title": "మేము ఎలా తయారు చేస్తాము",
-    "step1": "ముడి పదార్థం",
-    "step1Desc": "నాణ్యమైన పాలిమర్ & ఫాబ్రిక్",
-    "step2": "తయారీ",
-    "step2Desc": "ఆధునిక ఆటోమేటెడ్ యంత్రాలు",
-    "step3": "నాణ్యత పరీక్ష",
-    "step3Desc": "ప్రతి బ్యాచ్ తనిఖీ",
-    "step4": "డిస్పాచ్",
-    "step4Desc": "భారతదేశం అంతటా పంపబడతాయి"
-  },
-  "about": {
-    "title": "మా ఫ్యాక్టరీ గురించి",
-    "machinery": "ఆధునిక యంత్రాలు",
-    "machineryDesc": "అధునాతన తయారీ పరికరాలు",
-    "location": "ఆంధ్ర ప్రదేశ్",
-    "locationDesc": "విజయవాడ - నూజివీడు రోడ్",
-    "delivery": "భారతదేశం అంతటా డెలివరీ",
-    "deliveryDesc": "మేము దేశవ్యాప్తంగా షిప్ చేస్తాము",
-    "quality": "నాణ్యత హామీ",
-    "qualityDesc": "పరీక్షించి నమ్మదగిన ఉత్పత్తులు"
-  },
-  "gallery": {
-    "title": "గ్యాలరీ",
-    "subtitle": "ఉత్పత్తులు • యంత్రాలు • ఫలితాలు"
-  },
-  "contact": {
-    "title": "సంప్రదించండి",
-    "subtitle": "కాల్ లేదా మెసేజ్ చేయడానికి నొక్కండి",
-    "whatsapp": "వాట్సాప్‌లో చాట్ చేయండి",
-    "call": "కాల్",
-    "address": "ఫ్యాక్టరీ చిరునామా",
-    "addressText": "SR Enterprises, బుర్రి వెంకటేశ్వరావు గార్డెన్స్, విజయవాడ నుండి నూజివీడు రోడ్, పొతవరప్పాడు, అగిరిపల్లి మండలం, ఏలూరు జిల్లా, 521212, ఆంధ్ర ప్రదేశ్",
-    "openMaps": "Google Maps లో తెరవండి",
-    "email": "ఇమెయిల్",
-    "copyright": "© 2026 SR ఎంటర్‌ప్రైజెస్. అన్ని హక్కులు రిజర్వ్ చేయబడ్డాయి.",
-    "formTitle": "బల్క్ విచారణ",
-    "formSubtitle": "ఫారమ్ నింపండి, మేము వాట్సాప్‌లో జవాబిస్తాము",
-    "productLabel": "ఉత్పత్తి",
-    "quantityLabel": "పరిమాణం",
-    "quantityPlaceholder": "ఉదా. 500",
-    "messageLabel": "సందేశం (ఐచ్ఛికం)",
-    "messagePlaceholder": "ఏవైనా ప్రత్యేక అవసరాలు…",
-    "submit": "వాట్సాప్‌లో పంపండి"
-  }
+  "about": {},
+  "factory": {},
+  "products": {},
+  "testimonials": {},
+  "contact": {},
+  "footer": {}
 }

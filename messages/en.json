@@ -3,122 +3,99 @@
     "home": "Home",
     "products": "Products",
     "about": "About",
+    "factory": "Factory",
     "gallery": "Gallery",
+    "testimonials": "Testimonials",
     "contact": "Contact",
-    "getQuote": "Get Quote"
+    "getQuote": "Get a quote"
   },
-  "hero": {
-    "subtitle": "MANUFACTURER & SUPPLIER",
-    "title": "Fruit Covers & Packaging Bags",
-    "description": "Quality products for farmers & businesses since 2026",
-    "whatsapp": "WhatsApp Us",
-    "call": "Call Now",
-    "fruitCovers": "Fruit Covers",
-    "lenoBags": "Leno Bags",
-    "ppBags": "PP Woven Bags"
+  "common": {
+    "whatsappUs": "WhatsApp us",
+    "callNow": "Call now",
+    "viewDetails": "View details",
+    "freeSample": "Free sample available"
   },
-  "trust": {
-    "products": "3+ Products",
-    "delivery": "All India Delivery",
-    "print": "Custom Print Available",
-    "machinery": "Modern Machinery"
-  },
-  "why": {
-    "title": "Why Use Fruit Protection Covers?",
-    "subtitle": "See the difference they make",
-    "noInsects": "No Insects",
-    "noInsectsDesc": "Protects fruit from pests without chemicals",
-    "sunShield": "Sun & Rain Shield",
-    "sunShieldDesc": "Guards against sunburn and rain damage",
-    "betterPrice": "Better Price",
-    "betterPriceDesc": "Unblemished fruit sells at premium rates",
-    "without": "Without Cover",
-    "withoutDesc": "Spots, insect marks, lower price",
-    "with": "With Cover",
-    "withDesc": "Clean, premium quality, top price",
-    "dragHint": "Drag to compare"
-  },
-  "products": {
-    "title": "Our Products",
-    "enquire": "Enquire Now",
-    "cropTitle": "Works Great For",
-    "fruitCovers": {
-      "name": "Fruit Protection Covers",
-      "description": "Non-woven covers for mango, grapes, pomegranate, dragon fruit, orange & more",
-      "specs": "Reusable · Breathable · Pest-free",
-      "tag1": "Reusable",
-      "tag2": "Breathable",
-      "tag3": "Pest-free"
+  "home": {
+    "hero": {
+      "eyebrow": "MANUFACTURER · SINCE 2026",
+      "title": "Quality packaging for every harvest.",
+      "subtitle": "Fruit covers, leno mesh bags, and PP woven bags — made right here in Andhra Pradesh. Trusted by farmers and businesses across India.",
+      "stats": {
+        "productLines": "Product lines",
+        "delivery": "Delivery",
+        "printSizing": "Print & Sizing"
+      },
+      "liveFactory": "Live from factory",
+      "sampleTitle": "Free sample available",
+      "sampleSubtitle": "WhatsApp to request"
     },
-    "lenoBags": {
-      "name": "Leno Mesh Bags",
-      "description": "Breathable mesh bags for onions, potatoes, vegetables — available in all colors & sizes",
-      "specs": "All colors · Custom sizes · Ventilated",
-      "tag1": "All colors",
-      "tag2": "Custom sizes",
-      "tag3": "Ventilated"
+    "trustBar": {
+      "modernFactory": "Modern factory",
+      "latestMachinery": "Latest machinery",
+      "allIndiaDelivery": "All India delivery",
+      "shipAnywhere": "We ship anywhere",
+      "customPrinting": "Custom printing",
+      "brandAnyColor": "Your brand, any color",
+      "replyInOneHour": "Reply in 1 hour",
+      "whatsappSupport": "WhatsApp support"
     },
-    "ppBags": {
-      "name": "PP Woven Bags",
-      "description": "Heavy-duty woven bags for rice, fertilizer, grains, cement — with custom printing",
-      "specs": "Custom print · Heavy duty · Bulk orders",
-      "tag1": "Custom print",
-      "tag2": "Heavy duty",
-      "tag3": "Bulk orders"
+    "productsOverview": {
+      "eyebrow": "WHAT WE MAKE",
+      "title": "Three products, built for every need.",
+      "lead": "From orchard to warehouse — protective covers for fruits, mesh bags for vegetables, and heavy-duty woven sacks for grains and fertilizer.",
+      "detailsLink": "See detailed specs for all products →"
+    },
+    "beforeAfter": {
+      "eyebrow": "THE DIFFERENCE IS VISIBLE",
+      "title": "See what fruit covers do.",
+      "lead": "Mangoes grown without protection develop spots, insect marks, and sun damage — selling for half the price of clean fruit. Covers pay for themselves in the first harvest.",
+      "button": "Watch farmer stories →",
+      "leftLabel": "❌ Without cover",
+      "rightLabel": "✅ With cover"
+    },
+    "specs": {
+      "eyebrow": "COMPARE PRODUCTS",
+      "title": "Which one fits your need?",
+      "lead": "Every product's key specs in one view.",
+      "bestFor": "Best for",
+      "sizesAvailable": "Sizes available",
+      "moq": "MOQ",
+      "customPrint": "Custom print",
+      "deliveryTime": "Delivery time",
+      "freeSample": "Free sample",
+      "enquire": "Enquire"
+    },
+    "factoryVideos": {
+      "eyebrow": "INSIDE OUR FACTORY",
+      "title": "Built right, here in Andhra Pradesh.",
+      "lead": "Take a look at our machines, processes, and the team behind every bag.",
+      "galleryLink": "View full gallery →"
+    },
+    "testimonials": {
+      "eyebrow": "FARMERS & BUSINESSES WHO TRUST US",
+      "title": "Real results, in their own words.",
+      "link": "Read all 20+ stories →"
+    },
+    "deliveryTrust": {
+      "eyebrow": "TRUSTED ACROSS INDIA",
+      "title": "We deliver to 15+ states.",
+      "badges": "GST Registered, MSME Certified, ISI Standards, IndiaMART Verified"
+    },
+    "mainCta": {
+      "title": "Need a bulk quote? Talk to us directly.",
+      "description": "WhatsApp us your requirement — quantity, product, and delivery location. We reply within 1 hour with pricing and delivery estimate.",
+      "primary": "WhatsApp us now",
+      "secondary": "Call: 99856 36699",
+      "formTitle": "OR FILL THIS QUICK FORM",
+      "freeSample": "Free sample available",
+      "quoteTurnaround": "24hr quote turnaround",
+      "delivery": "All India delivery"
     }
   },
-  "crops": {
-    "mango": "Mango",
-    "grapes": "Grapes",
-    "pomegranate": "Pomegranate",
-    "dragonFruit": "Dragon Fruit",
-    "orange": "Orange",
-    "guava": "Guava"
-  },
-  "process": {
-    "eyebrow": "Our Process",
-    "title": "How We Make It",
-    "step1": "Raw Material",
-    "step1Desc": "Quality polymer & fabric sourcing",
-    "step2": "Manufacturing",
-    "step2Desc": "Modern automated machinery",
-    "step3": "Quality Check",
-    "step3Desc": "Every batch inspected",
-    "step4": "Dispatch",
-    "step4Desc": "Shipped across India"
-  },
-  "about": {
-    "title": "About Our Factory",
-    "machinery": "Modern Machinery",
-    "machineryDesc": "Advanced manufacturing equipment",
-    "location": "Andhra Pradesh",
-    "locationDesc": "Vijayawada - Nuzvid Road",
-    "delivery": "All India Delivery",
-    "deliveryDesc": "We ship across the country",
-    "quality": "Quality Assured",
-    "qualityDesc": "Tested & trusted products"
-  },
-  "gallery": {
-    "title": "Gallery",
-    "subtitle": "Products • Machines • Results"
-  },
-  "contact": {
-    "title": "Contact Us",
-    "subtitle": "Tap to call or message",
-    "whatsapp": "Chat on WhatsApp",
-    "call": "Call",
-    "address": "Factory Address",
-    "addressText": "SR Enterprises, Burri Venkateswarao Gardens, Vijayawada To Nuzivid Road, Pothavarappadu, Agiripalli Mandal, Eluru District, 521212, Andhra Pradesh",
-    "openMaps": "Open in Google Maps",
-    "email": "Email",
-    "copyright": "© 2026 SR Enterprises. All rights reserved.",
-    "formTitle": "Bulk Enquiry",
-    "formSubtitle": "Fill the form and we'll reply on WhatsApp",
-    "productLabel": "Product",
-    "quantityLabel": "Quantity",
-    "quantityPlaceholder": "e.g. 500",
-    "messageLabel": "Message (optional)",
-    "messagePlaceholder": "Any specific requirements…",
-    "submit": "Send on WhatsApp"
-  }
+  "about": {},
+  "factory": {},
+  "products": {},
+  "testimonials": {},
+  "contact": {},
+  "footer": {}
 }

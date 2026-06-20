@@ -7,7 +7,12 @@ export const metadata: Metadata = {
   },
   description:
     "Manufacturer of fruit protection covers, leno mesh bags and PP woven bags. Contact SR Enterprises for bulk and retail supply.",
-  metadataBase: new URL("https://sr-enterprises.vercel.app"),
+  metadataBase: new URL("https://sr-enterprises-five.vercel.app"),
+  manifest: "/manifest.webmanifest",
+  icons: {
+    icon: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
+  },
 };
 
 export default function RootLayout({

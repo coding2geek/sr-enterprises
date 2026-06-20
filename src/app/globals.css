@@ -1,192 +1,56 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Noto+Sans+Devanagari:wght@400;500&family=Noto+Sans+Telugu:wght@400;500&family=Poppins:wght@500;600&display=swap");
 @import "tailwindcss";
 
-:root {
-  --forest-dark: #1B4332;
-  --forest-mid: #2D6A4F;
-  --forest-accent: #52B788;
-  --forest-soft: #E8F5E9;
-  --amber: #F59E0B;
-  --amber-dark: #D97706;
-  --cream: #FEFCE8;
-  --warm-gray: #F5F3E7;
-  --ink: #1F2937;
-  --ink-muted: #6B7280;
-  --whatsapp: #25D366;
-  --radius: 1rem;
+@theme {
+  --color-forest: #1B4332;
+  --color-leaf: #2D6A4F;
+  --color-mint: #52B788;
+  --color-sage: #EAF3DE;
+  --color-amber: #F59E0B;
+  --color-wa-green: #25D366;
+  --color-cream: #FEFCE8;
+  --color-ink: #1F2937;
+  --color-text-muted: #6B7280;
 
-  /* legacy aliases kept so any stray reference still resolves */
-  --navy: #1B4332;
-  --navy-light: #2D6A4F;
-  --gold: #F59E0B;
-  --gold-light: #FBBF24;
-  --gold-dim: rgba(245,158,11,0.12);
-  --text: #1F2937;
-  --muted: #6B7280;
+  --font-display: "Poppins", sans-serif;
+  --font-sans: "Inter", sans-serif;
+  --font-telugu: "Noto Sans Telugu", sans-serif;
+  --font-devanagari: "Noto Sans Devanagari", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 6rem;
 }
 
 body {
-  font-family: 'Inter', sans-serif;
+  margin: 0;
+  background: white;
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  font-size: 16px;
   font-weight: 400;
-  color: var(--ink);
-  background: var(--cream);
-  min-height: 100dvh;
-  overflow-x: hidden;
+  line-height: 1.6;
 }
 
-::selection {
-  background: var(--amber);
-  color: var(--forest-dark);
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-display);
 }
 
-.locale-hi { font-family: 'Inter', 'Nirmala UI', 'Noto Sans Devanagari', sans-serif; }
-.locale-te { font-family: 'Inter', 'Nirmala UI', 'Noto Sans Telugu', sans-serif; }
-
-.font-display {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 600;
+.locale-te {
+  font-family: var(--font-telugu);
 }
 
-/* ─── Layout ─── */
-.section-wrap { @apply px-5 py-20 sm:px-8 lg:py-28; }
-.section-max  { @apply mx-auto max-w-6xl; }
-
-/* ─── Section heading cluster ─── */
-.section-eyebrow {
-  font-family: 'Inter', sans-serif;
-  font-size: 0.75rem;
-  letter-spacing: 0.1em;
-  @apply inline-block font-semibold uppercase text-[var(--forest-mid)] mb-4;
-}
-.section-heading {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 600;
-  @apply text-3xl leading-tight sm:text-4xl lg:text-[2.75rem] text-[var(--ink)];
-}
-.section-desc {
-  @apply mt-4 text-base leading-relaxed text-[var(--ink-muted)] max-w-xl;
-}
-
-/* ─── Cards ─── */
-.card {
-  @apply rounded-[var(--radius)] border border-black/[0.05] bg-white transition-all duration-300;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.04), 0 8px 24px rgba(0,0,0,0.05);
-}
-.card:hover {
-  box-shadow: 0 4px 12px rgba(27,67,50,0.08), 0 20px 40px rgba(27,67,50,0.12);
-  transform: translateY(-4px);
-}
-
-/* ─── Pills / tags ─── */
-.pill {
-  @apply rounded-full px-3 py-1 text-[11px] font-semibold tracking-wide;
-}
-.pill-forest {
-  background: var(--forest-soft);
-  color: var(--forest-dark);
-}
-
-/* ─── Buttons ─── */
-.btn {
-  @apply inline-flex items-center justify-center gap-2.5 rounded-xl px-7 py-3.5 text-sm font-semibold tracking-wide transition-all duration-300;
-  @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--amber)] focus-visible:ring-offset-2;
-}
-.btn-whatsapp {
-  background: var(--whatsapp);
-  @apply text-white;
-  box-shadow: 0 4px 14px rgba(37,211,102,0.35);
-}
-.btn-whatsapp:hover {
-  box-shadow: 0 6px 20px rgba(37,211,102,0.45);
-  transform: translateY(-1px);
-}
-.btn-whatsapp:active { transform: scale(0.98); }
-
-.btn-amber {
-  background: var(--amber);
-  color: var(--forest-dark);
-  @apply font-bold;
-  box-shadow: 0 4px 14px rgba(245,158,11,0.35);
-}
-.btn-amber:hover {
-  background: var(--amber-dark);
-  box-shadow: 0 6px 20px rgba(245,158,11,0.45);
-  transform: translateY(-1px);
-}
-
-.btn-outline-white {
-  @apply border-2 border-white/70 text-white bg-transparent;
-}
-.btn-outline-white:hover { @apply bg-white/10 border-white; }
-
-.btn-forest {
-  background: var(--forest-mid);
-  @apply text-white;
-}
-.btn-forest:hover { background: var(--forest-dark); }
-
-/* legacy names still used by some buttons */
-.btn-gold { background: var(--amber); color: var(--forest-dark); @apply font-bold; }
-.btn-outline { @apply border-2 border-white/70 text-white bg-transparent; }
-.btn-outline:hover { @apply bg-white/10; }
-
-/* ─── Fade edges on carousels ─── */
-.fade-edges {
-  mask-image: linear-gradient(to right, transparent 0%, black 4%, black 96%, transparent 100%);
-  -webkit-mask-image: linear-gradient(to right, transparent 0%, black 4%, black 96%, transparent 100%);
-}
-
-/* ─── Glass panel ─── */
-.glass {
-  @apply bg-white/[0.08] backdrop-blur-2xl border border-white/[0.12];
-}
-
-/* ─── Divider accent ─── */
-.gold-line {
-  width: 48px;
-  height: 3px;
-  background: var(--amber);
-  border-radius: 2px;
-}
-
-/* ─── Scroll reveal via IntersectionObserver ─── */
-.reveal {
-  opacity: 0;
-  transform: translateY(24px);
-  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
-  will-change: opacity, transform;
-}
-.reveal.is-visible {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-/* ─── Masonry columns for gallery ─── */
-.masonry {
-  column-count: 2;
-  column-gap: 0.75rem;
-}
-@media (min-width: 640px) {
-  .masonry { column-count: 3; }
-}
-@media (min-width: 1024px) {
-  .masonry { column-count: 5; }
-}
-.masonry > * {
-  break-inside: avoid;
-  margin-bottom: 0.75rem;
-}
-
-/* ─── Responsive helpers ─── */
-@media (max-width: 640px) {
-  .section-heading { font-size: 1.75rem; }
-  body {
-    /* leave room for mobile bottom nav */
-    padding-bottom: 4rem;
-  }
+.locale-hi {
+  font-family: var(--font-devanagari);
 }
