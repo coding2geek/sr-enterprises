@@ -1,6 +1,7 @@
 "use client";
 
 import { ChevronDown, Menu, Phone } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 import { useLocale, useTranslations } from "next-intl";
 import { usePathname } from "next/navigation";
@@ -50,8 +51,15 @@ export default function Navbar() {
       >
         <div className="flex h-full items-center gap-6 px-6">
           <Link className="flex min-w-0 items-center gap-3" href={getLocalizedPath("/", locale)}>
-            <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-forest font-display text-sm font-semibold text-mint">
-              SR
+            <div className="relative h-9 w-9 shrink-0 overflow-hidden rounded-lg border-[0.5px] border-[#E5E7EB] bg-white">
+              <Image
+                alt="SR Enterprises logo"
+                className="object-cover"
+                fill
+                priority
+                sizes="36px"
+                src="/images/logo.jpeg"
+              />
             </div>
             <div className="min-w-0">
               <div className="font-display text-[15px] font-semibold leading-tight text-forest">

@@ -10,14 +10,14 @@ export default function manifest(): MetadataRoute.Manifest {
     background_color: "#FEFCE8",
     icons: [
       {
-        src: "/favicon.ico",
-        sizes: "48x48",
-        type: "image/x-icon",
+        src: "/images/logo.jpeg",
+        sizes: "192x192",
+        type: "image/jpeg",
       },
       {
-        src: "/apple-touch-icon.png",
-        sizes: "180x180",
-        type: "image/png",
+        src: "/images/logo.jpeg",
+        sizes: "512x512",
+        type: "image/jpeg",
       },
     ],
   };

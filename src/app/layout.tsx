@@ -10,8 +10,9 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://sr-enterprises-five.vercel.app"),
   manifest: "/manifest.webmanifest",
   icons: {
-    icon: "/favicon.ico",
-    apple: "/apple-touch-icon.png",
+    icon: [{ url: "/images/logo.jpeg", type: "image/jpeg" }],
+    shortcut: [{ url: "/images/logo.jpeg", type: "image/jpeg" }],
+    apple: [{ url: "/images/logo.jpeg", type: "image/jpeg" }],
   },
 };
 

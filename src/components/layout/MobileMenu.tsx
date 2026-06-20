@@ -2,6 +2,7 @@
 
 import { AnimatePresence, motion } from "framer-motion";
 import { X } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 import { useLocale, useTranslations } from "next-intl";
 import { usePathname } from "next/navigation";
@@ -69,8 +70,14 @@ export default function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
         >
           <div className="flex items-center justify-between">
             <Link className="flex items-center gap-3" href={getLocalizedPath("/", locale)} onClick={onClose}>
-              <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-white/10 font-display text-sm font-semibold text-mint">
-                SR
+              <div className="relative h-9 w-9 overflow-hidden rounded-lg border border-white/10 bg-white">
+                <Image
+                  alt="SR Enterprises logo"
+                  className="object-cover"
+                  fill
+                  sizes="36px"
+                  src="/images/logo.jpeg"
+                />
               </div>
               <div>
                 <div className="font-display text-base font-semibold">SR Enterprises</div>
