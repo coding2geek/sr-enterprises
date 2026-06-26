@@ -46,10 +46,10 @@ export default async function AboutPage({ params }: Props) {
 
       <section className="bg-cream px-6 py-7">
         <div className="mx-auto grid max-w-[1100px] grid-cols-2 gap-3.5 lg:grid-cols-4">
-          <StatCard label="Farmers served" value="1000+" />
+          <StatCard label="Buyer support" value="Direct" />
           <StatCard label="Product lines" value="3" />
-          <StatCard label="States delivered" value="15+" />
-          <StatCard label="Quote turnaround" value="24 hr" />
+          <StatCard label="Delivery coverage" value="India" />
+          <StatCard label="Quote channel" value="WhatsApp" />
         </div>
       </section>
 
@@ -65,7 +65,7 @@ export default async function AboutPage({ params }: Props) {
               </p>
               <p>
                 That experience led us to set up our own manufacturing facility. Today we supply farmers and
-                businesses across 15+ states — but our mission is still the same: help every farmer earn more from
+                businesses across India, but our mission is still the same: help every farmer earn more from
                 every harvest.
               </p>
             </div>
@@ -152,7 +152,7 @@ export default async function AboutPage({ params }: Props) {
                 ["GST registered", "Full tax compliance"],
                 ["MSME certified", "Udyam registered"],
                 ["ISI standards", "Material tested"],
-                ["IndiaMART verified", "Seller profile"],
+                ["Marketplace profiles", "Add links after verification"],
               ].map(([title, subtitle]) => (
                 <div key={title}>
                   <div className="text-sm font-semibold text-forest">✓ {title}</div>

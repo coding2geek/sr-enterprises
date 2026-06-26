@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
+import { SITE } from "@/lib/site-content";
 
-const baseUrl = "https://sr-enterprises-five.vercel.app";
 const locales = ["en", "te", "hi"];
 const routes = [
   "",
@@ -17,7 +17,7 @@ const routes = [
 export default function sitemap(): MetadataRoute.Sitemap {
   return locales.flatMap((locale) =>
     routes.map((route) => ({
-      url: `${baseUrl}/${locale}${route}`,
+      url: `${SITE.url}/${locale}${route}`,
       lastModified: new Date(),
       changeFrequency: route === "" ? "weekly" : "monthly",
       priority: route === "" ? 1 : 0.8,

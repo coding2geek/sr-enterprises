@@ -1,34 +1,32 @@
 import type { Metadata } from "next";
-import Script from "next/script";
 import BeforeAfterSection from "@/components/sections/BeforeAfterSection";
 import DeliveryTrust from "@/components/sections/DeliveryTrust";
 import FactoryVideoGrid from "@/components/sections/FactoryVideoGrid";
 import HeroSection from "@/components/sections/HeroSection";
 import MainCta from "@/components/sections/MainCta";
+import MediaShowcase from "@/components/sections/MediaShowcase";
 import ProductsOverview from "@/components/sections/ProductsOverview";
 import SpecsTable from "@/components/sections/SpecsTable";
 import TestimonialsSection from "@/components/sections/TestimonialsSection";
 import TrustBar from "@/components/sections/TrustBar";
 import { EMAIL, PHONE_1 } from "@/lib/constants";
+import { SEO_KEYWORDS, SITE } from "@/lib/site-content";
 
 export const metadata: Metadata = {
-  title: "SR Enterprises | Fruit Covers & Packaging Bags Manufacturer",
+  title: "Fruit Covers, Leno Mesh Bags & PP Woven Bags Manufacturer",
   description:
-    "Quality fruit protection covers, leno mesh bags, and PP woven bags. Serving farmers across India since 2026.",
+    "SR Enterprises manufactures fruit protection covers, leno mesh bags and PP woven bags for farmers, traders, rice mills and bulk packaging buyers across India.",
+  alternates: {
+    canonical: "/en",
+  },
   openGraph: {
     title: "SR Enterprises | Fruit Covers & Packaging Bags Manufacturer",
     description:
-      "Quality fruit protection covers, leno mesh bags, and PP woven bags. Serving farmers across India since 2026.",
+      "Fruit protection covers, leno mesh bags and PP woven bags manufactured in Andhra Pradesh for buyers across India.",
+    url: `${SITE.url}/en`,
     type: "website",
   },
-  keywords: [
-    "fruit covers",
-    "mango covers",
-    "leno bags",
-    "PP woven bags",
-    "agricultural packaging",
-    "Andhra Pradesh manufacturer",
-  ],
+  keywords: [...SEO_KEYWORDS],
 };
 
 type Props = {
@@ -55,19 +53,20 @@ export default async function HomePage({ params }: Props) {
       addressCountry: "IN",
     },
     areaServed: "India",
-    url: `https://sr-enterprises-five.vercel.app/${locale}`,
+    url: `${SITE.url}/${locale}`,
   };
 
   return (
     <>
-      <Script
+      <script
         id="sr-enterprises-local-business"
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessJsonLd) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessJsonLd).replace(/</g, "\\u003c") }}
       />
       <HeroSection />
       <TrustBar />
       <ProductsOverview />
+      <MediaShowcase locale={locale} />
       <BeforeAfterSection locale={locale} />
       <SpecsTable />
       <FactoryVideoGrid locale={locale} />

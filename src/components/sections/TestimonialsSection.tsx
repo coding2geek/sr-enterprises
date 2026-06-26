@@ -1,5 +1,5 @@
 import { Button, FadeInWhenVisible, TestimonialCard } from "@/components/ui";
-import { TESTIMONIALS } from "@/lib/constants";
+import { CUSTOMER_STORIES } from "@/lib/testimonial-content";
 
 type TestimonialsSectionProps = {
   locale: string;
@@ -11,24 +11,27 @@ export default function TestimonialsSection({ locale }: TestimonialsSectionProps
       <div className="mx-auto max-w-[1100px]">
         <header>
           <span className="mb-2 block text-[11px] font-semibold uppercase tracking-[0.08em] text-mint">
-            FARMERS & BUSINESSES WHO TRUST US
+            FARMERS AND BUSINESSES
           </span>
           <h2 className="font-display text-[22px] font-semibold leading-tight text-white lg:text-[28px]">
-            Real results, in their own words.
+            Customer stories.
           </h2>
+          <p className="mt-3 max-w-xl text-sm leading-relaxed text-white/70">
+            Sample testimonials are in place now, ready to replace with original buyer quotes, photos and videos.
+          </p>
         </header>
 
         <div className="mt-7 grid grid-cols-1 gap-4 md:grid-cols-3">
-          {TESTIMONIALS.slice(0, 3).map((testimonial, index) => (
+          {CUSTOMER_STORIES.slice(0, 3).map((testimonial, index) => (
             <FadeInWhenVisible delay={index * 0.08} key={testimonial.name}>
-              <TestimonialCard {...testimonial} />
+              <TestimonialCard {...testimonial} language="en" />
             </FadeInWhenVisible>
           ))}
         </div>
 
         <div className="mt-8 text-center">
           <Button className="text-mint hover:text-white" href={`/${locale}/testimonials`} inverted variant="ghost">
-            Read all 20+ stories →
+            Read customer stories
           </Button>
         </div>
       </div>

@@ -17,8 +17,8 @@ import {
   PHONE_1,
   type Product,
   type ProductSizeRow,
-  TESTIMONIALS,
 } from "@/lib/constants";
+import { CUSTOMER_STORIES } from "@/lib/testimonial-content";
 import { cn } from "@/lib/utils";
 
 type ProductPageTemplateProps = {
@@ -107,8 +107,9 @@ export default function ProductPageTemplate({ product }: ProductPageTemplateProp
   const productSubtitle = locale === "en" ? product.teluguName : product.name;
   const productSubtitleClass = locale === "hi" ? "font-devanagari" : "font-telugu";
   const tableHeaders = useMemo(() => Object.keys(product.sizesTable[0] ?? {}), [product.sizesTable]);
-  const matchingTestimonials = TESTIMONIALS.filter((testimonial) =>
-    product.testimonialIds.includes(testimonial.name),
+  const matchingTestimonials = CUSTOMER_STORIES.filter((testimonial) =>
+    testimonial.productUsed.toLowerCase().includes(product.name.toLowerCase().replace(" protection", "")) ||
+    product.name.toLowerCase().includes(testimonial.productUsed.toLowerCase().replace("custom printed ", "")),
   );
 
   useEffect(() => {
@@ -365,7 +366,7 @@ export default function ProductPageTemplate({ product }: ProductPageTemplateProp
             </header>
             <div className="mt-7 grid gap-4 md:grid-cols-3">
               {matchingTestimonials.map((testimonial) => (
-                <TestimonialCard key={testimonial.name} {...testimonial} />
+                <TestimonialCard key={testimonial.name} {...testimonial} language="en" />
               ))}
             </div>
           </div>

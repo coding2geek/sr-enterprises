@@ -1,9 +1,10 @@
 import type { MetadataRoute } from "next";
+import { SITE } from "@/lib/site-content";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "SR Enterprises",
-    short_name: "SR Enterprises",
+    name: SITE.name,
+    short_name: SITE.shortName,
     start_url: "/en",
     display: "standalone",
     theme_color: "#1B4332",

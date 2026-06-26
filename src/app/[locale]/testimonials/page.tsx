@@ -2,8 +2,12 @@ import type { Metadata } from "next";
 import TestimonialsPageClient from "@/components/pages/TestimonialsPageClient";
 
 export const metadata: Metadata = {
-  title: "Testimonials | SR Enterprises",
-  description: "Stories from farmers, traders, rice mills, and businesses using SR Enterprises packaging products.",
+  title: "Customer Stories | Fruit Covers, Leno Bags & PP Woven Bags",
+  description:
+    "Customer stories for SR Enterprises buyers including mango farmers, onion traders, rice mills, fertilizer suppliers and vegetable wholesalers.",
+  alternates: {
+    canonical: "/en/testimonials",
+  },
 };
 
 type Props = {

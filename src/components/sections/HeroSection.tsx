@@ -1,7 +1,9 @@
 import { Check } from "lucide-react";
+import Image from "next/image";
 import { getTranslations } from "next-intl/server";
 import { Button } from "@/components/ui";
 import { buildWhatsAppUrl, PHONE_1 } from "@/lib/constants";
+import { GALLERY_IMAGES } from "@/lib/media-content";
 
 export default async function HeroSection() {
   const t = await getTranslations("home.hero");
@@ -54,13 +56,24 @@ export default async function HeroSection() {
           </div>
         </div>
 
-        <div className="relative h-[280px] overflow-hidden rounded-2xl bg-leaf">
-          <div className="absolute inset-0 bg-gradient-to-br from-leaf via-mint to-forest" />
-          <div className="absolute inset-0 flex items-center justify-center px-8 text-center font-display text-2xl font-semibold text-white/85">
-            SR Enterprises Factory
-          </div>
+        <div className="relative h-[320px] overflow-hidden rounded-2xl bg-leaf lg:h-[380px]">
+          <Image
+            alt="SR Enterprises agricultural packaging manufacturing and product samples"
+            className="object-cover"
+            fill
+            priority
+            sizes="(min-width: 1024px) 420px, 100vw"
+            src={GALLERY_IMAGES[0]?.src ?? "/images/fruit-covers-product.jpeg"}
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-forest/75 via-forest/15 to-transparent" />
           <div className="absolute left-4 top-4 rounded bg-forest/85 px-2.5 py-1 text-[10px] font-medium text-white">
-            {t("liveFactory")}
+            Factory and product media
+          </div>
+          <div className="absolute bottom-4 left-4 max-w-[240px] rounded-xl bg-white/95 p-3 text-left">
+            <div className="text-xs font-semibold text-ink">Videos and photos ready</div>
+            <div className="mt-1 text-[11px] leading-relaxed text-text-muted">
+              Machine working, factory place, covers, bags and dispatch media can be added here.
+            </div>
           </div>
           <div className="absolute bottom-4 right-4 flex items-center gap-2.5 rounded-xl bg-white p-3 text-left">
             <div className="flex h-9 w-9 items-center justify-center rounded-full bg-sage text-leaf">

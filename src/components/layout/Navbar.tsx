@@ -8,6 +8,7 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { PHONE_1 } from "@/lib/constants";
 import { getLocalizedPath, isActivePath } from "@/lib/routes";
+import { PRODUCT_NAV_LINKS } from "@/lib/site-content";
 import { cn } from "@/lib/utils";
 import MobileMenu from "./MobileMenu";
 
@@ -18,12 +19,6 @@ const NAV_LINKS = [
   { labelKey: "gallery", href: "/gallery" },
   { labelKey: "contact", href: "/contact" },
 ] as const;
-
-const PRODUCT_LINKS = [
-  { label: "Fruit Covers", href: "/products/fruit-covers" },
-  { label: "Leno Bags", href: "/products/leno-bags" },
-  { label: "PP Woven Bags", href: "/products/pp-woven-bags" },
-];
 
 export default function Navbar() {
   const locale = useLocale();
@@ -101,14 +96,14 @@ export default function Navbar() {
 
               {isProductsOpen ? (
                 <div className="absolute left-0 top-11 w-56 rounded-2xl border border-[#E5E7EB] bg-white p-2 shadow-[0_16px_40px_rgba(31,41,55,0.12)]">
-                  {PRODUCT_LINKS.map((item) => (
+                  {PRODUCT_NAV_LINKS.map((item) => (
                     <Link
                       key={item.href}
                       className="block min-h-12 rounded-xl px-4 py-3 text-[13px] font-medium text-ink transition hover:bg-sage hover:text-leaf"
                       href={getLocalizedPath(item.href, locale)}
                       onClick={() => setIsProductsOpen(false)}
                     >
-                      {item.label}
+                      {item.shortLabel}
                     </Link>
                   ))}
                 </div>

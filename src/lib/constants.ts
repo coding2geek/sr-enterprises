@@ -91,7 +91,6 @@ export const TESTIMONIALS: Testimonial[] = [
     location: "Krishna dist.",
     productUsed: "Fruit covers",
     avatarInitials: "RK",
-    videoUrl: "dQw4w9WgXcQ",
     category: ["mango-farmers"],
   },
   {
@@ -104,7 +103,6 @@ export const TESTIMONIALS: Testimonial[] = [
     location: "Nellore",
     productUsed: "PP woven bags",
     avatarInitials: "SP",
-    videoUrl: "dQw4w9WgXcQ",
     category: ["rice-mills"],
   },
   {
@@ -149,7 +147,6 @@ export const TESTIMONIALS: Testimonial[] = [
     location: "Krishna dist.",
     productUsed: "Fruit covers",
     avatarInitials: "GR",
-    videoUrl: "dQw4w9WgXcQ",
     category: ["mango-farmers"],
   },
   {
@@ -205,7 +202,6 @@ export const TESTIMONIALS: Testimonial[] = [
     location: "Sangli",
     productUsed: "Fruit covers",
     avatarInitials: "MP",
-    videoUrl: "dQw4w9WgXcQ",
     category: ["grape-growers"],
   },
   {

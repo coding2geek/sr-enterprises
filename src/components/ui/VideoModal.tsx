@@ -106,13 +106,24 @@ export default function VideoModal({ videoUrl, isOpen, onClose, title = "Video" 
       </button>
 
       <div className="aspect-video w-full max-w-3xl overflow-hidden rounded-lg bg-black">
-        <iframe
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-          className="h-full w-full"
-          src={getYouTubeEmbedUrl(videoUrl)}
-          title={title}
-        />
+        {videoUrl.trim() ? (
+          <iframe
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+            className="h-full w-full"
+            src={getYouTubeEmbedUrl(videoUrl)}
+            title={title}
+          />
+        ) : (
+          <div className="flex h-full w-full items-center justify-center p-8 text-center text-white">
+            <div>
+              <div className="font-display text-xl font-semibold">{title}</div>
+              <p className="mt-3 max-w-md text-sm leading-relaxed text-white/70">
+                Video placeholder. Add the real machine, factory or product video ID in the shared media content file.
+              </p>
+            </div>
+          </div>
+        )}
       </div>
     </div>
   );
